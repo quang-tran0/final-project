@@ -86,8 +86,8 @@ clean:
 
 help:
 	@echo "make build                              Compile RTL and testbench"
-	@echo "make run TESTNAME=<class> SEED=1       Run one compiled test"
-	@echo "make all TESTNAME=<class>              Compile and run safely"
+	@echo "make run TESTNAME=<class> SEED=1        Run one compiled test"
+	@echo "make all TESTNAME=<class>               Compile and run safely"
 	@echo "make wave                               Open the latest waveform"
 	@echo "make cov_merge                          Merge coverage databases"
 	@echo "make clean                              Remove generated output"

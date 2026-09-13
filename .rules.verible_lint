@@ -1,0 +1,6 @@
++explicit-begin
++one-module-per-file
++signal-name-style
++suspicious-semicolon
++mismatched-labels
++line-length=length:100

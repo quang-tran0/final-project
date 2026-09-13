@@ -1,0 +1,23 @@
+`verilator_config
+
+// -----------------------------------------------------------------------------
+// Project-specific Verilator waivers
+// -----------------------------------------------------------------------------
+//
+// Keep this file intentionally minimal.
+//
+// Add a waiver only after reviewing the warning and confirming that
+// the RTL behavior is intentional.
+//
+// Example:
+//
+// lint_off -rule UNUSED -file "hw/third_party/*.sv"
+//
+// Avoid globally disabling important diagnostics such as:
+//   WIDTH
+//   MULTIDRIVEN
+//   UNDRIVEN
+//   CASEINCOMPLETE
+//   CASEOVERLAP
+//
+
